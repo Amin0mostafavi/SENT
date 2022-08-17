@@ -12,11 +12,11 @@ for(i in packages){
 Sys.setlocale(category = "LC_ALL", locale = "persian")
 
 t <- create_token(
-  app = "dadehkav",
-  'NG5YQzMFbgETIcoHbsF6vKzvB',
-  'x8eKDzf2w6CL5WANIPAeRGjkVC41AUhEO4QsE3UUaf2TYdzs7f',
-  access_token = '4795087898-ICy0ak8Ud8g6BHvI9bFncRTJHmdepv7f3B7BRR3',
-  access_secret = '162upnDMVvta8SSAexVUZPnZa59r4Uuz33SGrtP3OSgJs',
+  app = "..........",
+  '........................',
+  '.................................',
+  access_token = '.................................',
+  access_secret = '.................................',
   set_renv = TRUE
 )
 
@@ -336,15 +336,4 @@ nrc_word_counts %>%
        y = "Contribution to sentiment",
        x = NULL) +
   coord_flip()
-install.packages('rsconnect')
-rsconnect::setAccountInfo(name='dadehkav',
-			  token='A7795123FBAEA7DC95910DD6AC1F52C0',
-			  secret='WxNvd8P0OSHdA0Zyr7k82nYgbOU9Xr5wwpxBxJOI')
 
-#######################YOUTUBE###############################
-url <- 'https://www.youtube.com/watch?v=VHcgnRl2xPM'
-cap <- get_caption(
-  url = url,
-  language = "en",
-  savexl = FALSE,
-  openxl = FALSE)
